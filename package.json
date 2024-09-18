@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "server": "json-server --watch src/jobs.json --port 8000",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
